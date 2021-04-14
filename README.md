@@ -68,8 +68,6 @@ Folder             | Description
 # Usage
 1. Run program
 2. Follow Instruction display on Screen
-3. Log using Given credentials
-4. Choose the feature given on list
 
 # Credit
 
