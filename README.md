@@ -1,4 +1,4 @@
-# stepin_project_264827
+# miniproject_264842
 
 # SDLC Activity Based Learning
 # Project Name: Poker Game
@@ -46,8 +46,6 @@ Folder             | Description
 * Valgrind(Dynamic memory analysis)(Linux)
 
 # Run Project
-* Username:pass
-* password:pass
 * In cmd/terminal at project implementation location
 	* To Run Project
 		1. Run "make"
