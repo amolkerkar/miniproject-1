@@ -4,7 +4,7 @@
 
 int main(void) {
   card_t card;
-  for (int i=0;i<52;i++){
+  for (int i=0;i<=51;i++){
     card = card_from_num(i);
     printf("Card %d: ", i);
     print_card(card);
