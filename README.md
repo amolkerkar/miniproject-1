@@ -9,6 +9,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option) |
 -----------------|-----------------|-----------------|-----------------|
+-----------------|-----------------|-----------------|[![Contribution Check - Git Inspector](https://github.com/Pritesh51199/miniproject/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Pritesh51199/miniproject/actions/workflows/Gitinspector.yml)|
  
  
  
