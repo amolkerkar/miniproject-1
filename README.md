@@ -1,4 +1,4 @@
-# miniproject_264842
+# Miniproject_264842
 
 # SDLC Activity Based Learning
 # Project Name: Poker Game
