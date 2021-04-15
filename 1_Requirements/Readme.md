@@ -66,7 +66,7 @@ This function should make and return a card_t whose value and suit correspond to
 This function should take a number from 0 (inclusive) to 52 (exclusive) and map it uniquely to a card value/suit combination. Exactly how we map the numbers to values/suits is up to you, but you must guarantee that each valid value/suit combination corresponds to exactly one input value in the range [0,52]. Hint: We may want to use the mod operator % to find the remainder of a number divided by 13.
 
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/Pritesh51199/miniproject/blob/main/1_Requirements/Cards.png)
+![SWOT Analysis](https://github.com/Pritesh51199/miniproject/blob/main/1_Requirements/SWOT.png)
 
 # 4W&#39;s and 1&#39;H
 
