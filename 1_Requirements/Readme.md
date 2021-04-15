@@ -4,7 +4,7 @@
 * A computer poker player is a computer program designed to play the game of poker against human opponents or other computer opponents. It will determine its strength of cards just by identifying the cards it is dealt.
 
 ## Research
-### Getting familiar with game first to design program:
+### Getting familiar with game first to design program
 Poker is any of a number of card games in which players wager over which hand is best according to that specific game's rules in ways similar to these rankings. Often using a standard deck, poker games vary in deck configuration, the number of cards in play, the number dealt face up or face down, and the number shared by all players, but all have rules that involve one or more rounds of betting. In most modern poker games, the first round of betting begins with one or more of the players making some form of a forced bet (the blind or ante). In standard poker, each player bets according to the rank they believe their hand is worth as compared to the other players. The action then proceeds clockwise as each player in turn must either match (or "call") the maximum previous bet, or fold, losing the amount bet so far and all further involvement in the hand. A player who matches a bet may also "raise" (increase) the bet. The betting round ends when all players have either called the last bet or folded. If all but one player folds on any round, the remaining player collects the pot without being required to reveal their hand. If more than one player remains in contention after the final betting round, a showdown takes place where the hands are revealed, and the player with the winning hand takes the pot.
 
 ### Gameplay
@@ -24,6 +24,7 @@ The issue of unfair advantage has much to do with what types of information and 
 ## Defining Our System
 ![Description](https://github.com/Pritesh51199/miniproject/blob/main/1_Requirements/cards-52.png)
 ![Description](https://github.com/Pritesh51199/miniproject/blob/main/1_Requirements/Varieties.png)
+
 To get started, We will see in "cards.h" that it starts by definingan enum suits (SPADES, HEARTS, DIAMONDS, and CLUBS). This enum also has NUM_SUITS, which will have a numeric value of 4 (indicating how many suits there are), and can also be used to indicate an invalid suit. 
 
 Next,The struct has two parts, a value (2,3,4,5,6,7,8,9,10,J,Q,K,A) and a suit (s,h,d,c). Following the struct declaration, there are some #defines for constants for the values of Ace, King, Queen, and Jack. Accordingly, a card's value should be between 2 and 14 (inclusive).	There is also an enum for the hand ranking (what kind of poker hand you get). We won't be doing anything with these at this point, except for writing a function to convert from the enumerated values	to a string. 
