@@ -91,9 +91,10 @@ This function should take a number from 0 (inclusive) to 52 (exclusive) and map 
 ## High Level Requirements
 | ID | Description | Status | 
 | ----- | ----- | --------- |
-| HR01 | User shall be able to choose a card value | Implemented | 
-| HR02 | User shall be able to choose a suit | Implemented |
-| HR03 | User shall be able to determine the amount he wants to bet in a particular round of game | FUTURE |
+| HR01 | User shall be able to check if cards value passing have valid values or not | Implemented |
+| HR02 | User shall be able to choose a card value | Implemented | 
+| HR03 | User shall be able to choose a suit | Implemented |
+| HR04 | User shall be able to determine the amount he wants to bet in a particular round of game | FUTURE |
 
 ##  Low level Requirements
  
