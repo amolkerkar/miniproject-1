@@ -11,11 +11,6 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option) |
 -----------------|-----------------|-----------------|-----------------|
 -----------------|[![Code Quality - Static Code - Cppcheck](https://github.com/Pritesh51199/miniproject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Pritesh51199/miniproject/actions/workflows/cppcheck.yml)|-----------------|[![Contribution Check - Git Inspector](https://github.com/Pritesh51199/miniproject/actions/workflows/Gitinspector.yml/badge.svg)](https://github.com/Pritesh51199/miniproject/actions/workflows/Gitinspector.yml)|
  
- 
- 
- | Code Coverage | Build and Release using Zenodo | CppCheck | Valgrind |
- | -------------------------------| -------------------------------| -------------------------------| -------------------------------|
-
 
 
 ## Folder Structure
