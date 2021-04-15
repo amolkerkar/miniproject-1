@@ -3,6 +3,8 @@
 # SDLC Activity Based Learning
 # Project Name: Poker Game
 
+![Banner](https://github.com/Pritesh51199/miniproject/blob/main/1_Requirements/Cards.png)
+
 # Description
 * This system focus on determining the strength of cards we are dealt with
 * User can check the strength of card for every combination of cards.
