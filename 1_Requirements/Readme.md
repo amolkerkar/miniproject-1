@@ -1,5 +1,5 @@
 # Requirements
-## Introduction :-
+## Introduction 
 * A program that estimates the strength of each hand winning in poker in a situation described by the test input file.
 * A computer poker player is a computer program designed to play the game of poker against human opponents or other computer opponents. It will determine its strength of cards just by identifying the cards it is dealt.
 
@@ -7,7 +7,7 @@
 ### Getting familiar with game first to design program:
 Poker is any of a number of card games in which players wager over which hand is best according to that specific game's rules in ways similar to these rankings. Often using a standard deck, poker games vary in deck configuration, the number of cards in play, the number dealt face up or face down, and the number shared by all players, but all have rules that involve one or more rounds of betting. In most modern poker games, the first round of betting begins with one or more of the players making some form of a forced bet (the blind or ante). In standard poker, each player bets according to the rank they believe their hand is worth as compared to the other players. The action then proceeds clockwise as each player in turn must either match (or "call") the maximum previous bet, or fold, losing the amount bet so far and all further involvement in the hand. A player who matches a bet may also "raise" (increase) the bet. The betting round ends when all players have either called the last bet or folded. If all but one player folds on any round, the remaining player collects the pot without being required to reveal their hand. If more than one player remains in contention after the final betting round, a showdown takes place where the hands are revealed, and the player with the winning hand takes the pot.
 
-### Gameplay:
+### Gameplay
 In casual play, the right to deal a hand typically rotates among the players and is marked by a token called a dealer button (or buck). In a casino, a house dealer handles the cards for each hand, but the button (typically a white plastic disk) is rotated clockwise among the players to indicate a nominal dealer to determine the order of betting. The cards are dealt clockwise around the poker table, one at a time.
 
 One or more players are usually required to make forced bets, usually either an ante or a blind bet (sometimes both). The dealer shuffles the cards, the player on the chair to his or her right cuts, and the dealer deals the appropriate number of cards to the players one at a time, beginning with the player to his or her left. Cards may be dealt either face-up or face-down, depending on the variant of poker being played. After the initial deal, the first of what may be several betting rounds begins. Between rounds, the players' hands develop in some way, often by being dealt additional cards or replacing cards previously dealt. At the end of each round, all bets are gathered into the central pot.
@@ -16,7 +16,7 @@ At any time during a betting round, if one player bets, no opponents choose to 
 
 At the end of the last betting round, if more than one player remains, there is a showdown, in which the players reveal their previously hidden cards and evaluate their hands. The player with the best hand according to the poker variant being played wins the pot. A poker hand comprises five cards; in variants where a player has more than five cards available to them, only the best five-card combination counts. There are 10 different kinds of poker hands such as straight flush, four of a kind etc.
 
-### Future Scope:
+### Future Scope
 The subject of online cpu player and computer assistance, while playing online poker, is very controversial. Player opinion is quite varied when it comes to deciding which types of computer software fall into the category unfair advantage. One of the primary factors in defining a cpu bot is whether or not the computer program can interface with the poker client (in other words, play by itself) without the help of its human operator. Computer programs with this ability are said to have or be an autoplayer and are universally defined to be in the category of bots regardless of how well they play poker.
 
 The issue of unfair advantage has much to do with what types of information and artificial intelligence are available to the computer program. In addition, cpu bots can play for many hours at a time without human weaknesses such as fatigue and can endure the natural variances of the game without being influenced by human emotion (or "tilt"). On the other hand, bots have some significant disadvantages - for example, it is very difficult for a bot to accurately read a bluff or adjust to the strategy of opponents the way humans can.
@@ -87,14 +87,14 @@ This function should take a number from 0 (inclusive) to 52 (exclusive) and map 
 * There were too many players who were not able to understand the situation for a particular gameplay with the cards they were dealt with and the opponents they had to play against and the amount they should play with every hand.
 
 # Detail requirements
-## High Level Requirements: 
+## High Level Requirements
 | ID | Description | Status | 
-| ----- | ----- | ---------|
+| ----- | ----- | --------- |
 | HR01 | User shall be able to choose a card value | Implemented | 
 | HR02 | User shall be able to choose a suit | Implemented |
 | HR03 | User shall be able to determine the amount he wants to bet in a particular round of game | FUTURE |
 
-##  Low level Requirements:
+##  Low level Requirements
  
 | ID | Description | Status (Implemented/Future) |
 | ------ | --------- | ----- |
