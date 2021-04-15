@@ -102,6 +102,8 @@ This function should take a number from 0 (inclusive) to 52 (exclusive) and map 
 | ------ | --------- | ----- |
 | LR01 | Value accepted shall only be values from 2-10, 'A', 'K', 'Q', 'J'. For any different number or letter, it will give no values  | Implemented |
 | LR02 | Suits will be accepted only if the following letters as input are given: 's', 'h', 'd', 'c' | Implemented |
-| LR03 | To Determine chances of winning a game looking at strengths of card and by probability of opponents if they will play or not | FUTURE |
-| LR04 | Looking at the past records of player and analysing the gameplay of the opponent and how to proceed against it| FUTURE |
+| LR03 | User shall be able to see it's cards ranking with the given values | Implemented |
+| LR04 | To Determine chances of winning a game looking at strengths of card and by probability of opponents if they will play or not | FUTURE |
+| LR05 | Looking at the past records of player and analysing the gameplay of the opponent and how to proceed against it| FUTURE |
+
 
