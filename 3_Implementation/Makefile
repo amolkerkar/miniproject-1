@@ -34,7 +34,7 @@ test:
 
 coverage:
 	cp Test/my-test-main.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) Unity/unity.c Test/my-test-main.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I -c $(INC_T) Unity/unity.c Test/my-test-main.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
