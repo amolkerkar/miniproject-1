@@ -1831,15 +1831,6 @@ void UnityDefaultTestRun(UnityTestFunction Func, const char* FuncName, const int
     Unity.NumberOfTests++;
     UNITY_CLR_DETAILS();
     UNITY_EXEC_TIME_START();
-    if (TEST_PROTECT())
-    {
-        setUp();
-        Func();
-    }
-    if (TEST_PROTECT())
-    {
-        tearDown();
-    }
     UNITY_EXEC_TIME_STOP();
     UnityConcludeTest();
 }
