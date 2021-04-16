@@ -29,8 +29,8 @@ all:
 run: all
 	./$(PROJ_NAME).$(EXEC)
 test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	gcc Test/my-test-main.c -I -c Unity/unity.c -o Test/$(TEST_NAME).$(EXEC)
+	./Test/$(TEST_NAME).$(EXEC)
 
 coverage:
 	cp Test/my-test-main.c .
