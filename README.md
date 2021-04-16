@@ -28,7 +28,6 @@ Folder             | Description
 * User Defined Header File
 * Unity Test Framework
 * Compatibility with Windows and Linux
-* File
 
 # Requirements
 * Unit Framework Library
